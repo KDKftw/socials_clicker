@@ -5,6 +5,9 @@ oldResolution = [1920, 1080]
 newResolution = [1366, 768]
 
 view1Location = [785, 496]
+subscribeLocation = [903, 330]
+closeWindowLocation = [981, 14]
+resfreshLocation = [78, 58]
 
 
 def newCoordsFnc(oldCoords):
@@ -18,3 +21,6 @@ def newCoordsFnc(oldCoords):
 
 
 newCoordsFnc(view1Location)
+newCoordsFnc(subscribeLocation)
+newCoordsFnc(closeWindowLocation)
+newCoordsFnc(resfreshLocation)
