@@ -70,6 +70,6 @@ def tiktok_liking_refresh():
         time.sleep(3)
         p.click(93, 61)
         time.sleep(3)
-tiktok()
-#tiktok_liking()
+#tiktok()
+tiktok_liking()
 #tiktok_liking_refresh()
