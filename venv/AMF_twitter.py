@@ -103,6 +103,6 @@ def twitter_liking():
                 resetCounter = 0
             else:
                 pass
-#twitter()
+twitter()
 #twitter_retweeting()
-twitter_liking()
+#twitter_liking()
