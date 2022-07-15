@@ -14,12 +14,12 @@ resfreshLocation = [55.49375, 41.24444444444445]
 
 retweetLocation = [517, 395]
 closeWindowLocation2 = [983, 18]
-
+followLocation2 = [868, 343]
 def twitter_flw():
     while True:
         time.sleep(3)
         p.click(view1Location)
-        time.sleep(6)
+        time.sleep(16)
         p.click(followLocation)
         time.sleep(4)
         p.click(closeWindowLocation)
@@ -33,9 +33,9 @@ def twitter_retweet():
     while True:
         time.sleep(3)
         p.click(view1Location)
-        time.sleep(6)
+        time.sleep(25)
         p.click(retweetLocation)
-        time.sleep(4)
+        time.sleep(6)
         p.click(closeWindowLocation2)
         time.sleep(4)
         p.click(confirmLocation)

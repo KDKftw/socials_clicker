@@ -22,20 +22,27 @@ def ytbe_sub():
         p.click(resfreshLocation)
         time.sleep(3)
 #likeLocation = [65, 620]
-likeLocation = [65, 633]
+#likeLocation = [65, 633]
 view1Location2 = [541, 473]
+maximizeLocation = [936, 14]
+likeLocation = [79, 710]
+closeWindowLocationMax = [1341, 14]
+viewLocation3 = [540, 475]
+confirmLocation2 = [762, 475]
 
 def ytbe_like():
     while True:
         time.sleep(3)
-        p.click(view1Location2)
+        p.click(viewLocation3)
+        time.sleep(2)
+        p.click(maximizeLocation)
         time.sleep(10)
         p.click(likeLocation)
         time.sleep(6)
-        p.click(closeWindowLocation)
+        p.click(closeWindowLocationMax)
         time.sleep(12)
         p.click(resfreshLocation)
         time.sleep(3)
 
-#ytbe_like()
-ytbe_sub()
+ytbe_like()
+#ytbe_sub()
