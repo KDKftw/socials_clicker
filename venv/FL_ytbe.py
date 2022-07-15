@@ -44,5 +44,13 @@ def ytbe_like():
         p.click(resfreshLocation)
         time.sleep(3)
 
+watchLocation = [682, 474]
+def ytbe_watch():
+    while True:
+        time.sleep(2)
+        p.click(watchLocation)
+        time.sleep(85)
+
+#ytbe_watch()
 ytbe_like()
 #ytbe_sub()
