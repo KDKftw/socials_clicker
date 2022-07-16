@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 import time
 import pyautogui as p
 #viewLocator = max_loc
