@@ -3,8 +3,10 @@ import numpy as np
 import time
 import pyautogui as p
 #viewLocator = max_loc
-
+##default browser = edge
 ##template to find to_name == the picture im looking for in the screenshot of the display, gotta be pre-set
+
+
 def takeSS_findTemplateInScreen_clickOnTemplate(screenShotOfDisplay_name, templateToFindTo_name):
 
     ##take screen on initial page, save, find view, get location, click
@@ -22,4 +24,6 @@ def takeSS_findTemplateInScreen_clickOnTemplate(screenShotOfDisplay_name, templa
     p.click(viewLocator)
 
 time.sleep(5)
-takeSS_findTemplateInScreen_clickOnTemplate("screenshot1", "view4")
+takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
+time.sleep(3)
+takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
