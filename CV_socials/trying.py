@@ -23,11 +23,30 @@ def takeSS_findTemplateInScreen_clickOnTemplate(screenShotOfDisplay_name, templa
     time.sleep(2)
     p.click(viewLocator)
 
-time.sleep(5)
-takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
-time.sleep(3)
-takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
-time.sleep(3)
-takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "thumbsUP")
-time.sleep(8)
-takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
+
+def ytbe_like():
+    while True:
+        time.sleep(5)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
+        time.sleep(3)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
+        time.sleep(3)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "thumbsUP")
+        time.sleep(8)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
+        time.sleep(10)
+
+def pinterest_flw():
+    while True:
+        time.sleep(5)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
+        time.sleep(3)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
+        time.sleep(6)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "follow_pinterest4")
+        time.sleep(8)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
+        time.sleep(10)
+
+#ytbe_like()
+pinterest_flw()
