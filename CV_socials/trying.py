@@ -58,5 +58,18 @@ def pinterest_flw():
         else:
             pass
 
+def ytbe_sub():
+    while True:
+        time.sleep(5)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
+        time.sleep(3)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
+        time.sleep(3)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "sub_ytbe")
+        time.sleep(8)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
+        time.sleep(10)
+
 #ytbe_like()
-pinterest_flw()
+#pinterest_flw()
+ytbe_sub()
