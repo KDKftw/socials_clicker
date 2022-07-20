@@ -61,11 +61,11 @@ def pinterest_flw():
 def ytbe_sub():
     resetCounter=0
     while True:
-        time.sleep(5)
+        time.sleep(7)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
-        time.sleep(3)
+        time.sleep(7)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
-        time.sleep(3)
+        time.sleep(7)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "sub_ytbe")
         time.sleep(8)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
@@ -73,7 +73,7 @@ def ytbe_sub():
 
         resetCounter = resetCounter + 1
 
-        if resetCounter == 4:
+        if resetCounter == 3:
             takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step5", "load_more")
             resetCounter = 0
         else:
