@@ -88,6 +88,7 @@ def ytbe_sub():
         if resetCounter == 3:
             takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step5", "load_more")
             resetCounter = 0
+            time.sleep(3)
         else:
             pass
 
