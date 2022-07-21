@@ -92,6 +92,6 @@ def ytbe_sub():
             pass
 
 
-ytbe_like()
+#ytbe_like()
 #pinterest_flw()
-#ytbe_sub()
+ytbe_sub()
