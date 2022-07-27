@@ -92,7 +92,30 @@ def ytbe_sub():
         else:
             pass
 
+def twitch_flw():
+    resetCounter=0
+    while True:
+        time.sleep(7)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "view4")
+        time.sleep(7)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
+        time.sleep(7)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "twitch_flw")
+        time.sleep(8)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
+        time.sleep(10)
+
+        resetCounter = resetCounter + 1
+
+        if resetCounter == 3:
+            takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step5", "load_more")
+            resetCounter = 0
+            time.sleep(10)
+        else:
+            pass
+
 
 #ytbe_like()
 #pinterest_flw()
-ytbe_sub()
+#ytbe_sub()
+twitch_flw()
