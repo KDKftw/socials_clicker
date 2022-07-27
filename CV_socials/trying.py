@@ -100,7 +100,7 @@ def twitch_flw():
         time.sleep(7)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step2", "maximize_window")
         time.sleep(7)
-        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "twitch_flw")
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "twitch_flw2")
         time.sleep(8)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
         time.sleep(10)
