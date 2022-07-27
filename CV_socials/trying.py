@@ -114,8 +114,19 @@ def twitch_flw():
         else:
             pass
 
+##TODO locate watch video, wait fixed time ? , try locate watch, click, -> loop
+##TODO before watch video appears = cca 5s
+##TODO timing secs : 80, 88, 90, 80, 90
+
+def ytbe_view():
+    while True:
+        time.sleep(7)
+        takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "watch_video")
+        time.sleep(117)
+
 
 #ytbe_like()
 #pinterest_flw()
 #ytbe_sub()
-twitch_flw()
+#twitch_flw()
+ytbe_view()
