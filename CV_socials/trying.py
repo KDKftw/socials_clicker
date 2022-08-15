@@ -122,11 +122,12 @@ def ytbe_view():
     while True:
         time.sleep(7)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step1", "watch_video")
-        time.sleep(117)
+        time.sleep(230)
 
 
 #ytbe_like()
 #pinterest_flw()
-#ytbe_sub()
+
 #twitch_flw()
 ytbe_view()
+#ytbe_sub()
