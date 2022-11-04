@@ -103,7 +103,7 @@ def twitch_flw():
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step3", "twitch_flw2")
         time.sleep(8)
         takeSS_findTemplateInScreen_clickOnTemplate("screenshot_step4", "crossClose2")
-        time.sleep(25)
+        time.sleep(35)
         ##TODO confirm location based on where it clicks on view, location plus fixed cords doprava
         resetCounter = resetCounter + 1
 
@@ -129,5 +129,6 @@ def ytbe_view():
 #pinterest_flw()
 
 #twitch_flw()
+#
 #ytbe_view()
 ytbe_sub()
