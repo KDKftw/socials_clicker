@@ -8,6 +8,7 @@ import time
 SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
 
 while True:
+    time.sleep(3)
     # Define the location coordinates
     LOCATION_X = int(SCREEN_WIDTH * 0.5) # Move to the center of the screen horizontally
     LOCATION_Y = int(SCREEN_HEIGHT * 0.5) # Move to the center of the screen vertically
