@@ -17,10 +17,12 @@ while True:
 
     # Wait for a random amount of time before moving again
     pyautogui.PAUSE = random.uniform(15, 55)
+    print("pyautogui.PAUSE = random.uniform(15, 55)")
 
     # Move slightly around the location coordinates with random offset
     pyautogui.moveRel(random.randint(-50, 50), random.randint(-50, 50))
+    print("pyautogui.moveRel(random.randint(-50, 50), random.randint(-50, 50))")
 
 
     time.sleep(random.uniform(1000, 2500))
-    time.sleep(random.uniform(1, 2))
+    #time.sleep(random.uniform(1, 2))
