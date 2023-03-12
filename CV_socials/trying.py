@@ -18,8 +18,8 @@ def takeSS_findTemplateInScreen_clickOnTemplate(screenShotOfDisplay_name, templa
     template = cv2.imread(templateToFindTo_name+".png",  1)####scnd value=0
 
     #########
-    #res = cv2.matchTemplate(screenshot, template, cv2.TM_SQDIFF)
-    res = cv2.matchTemplate(screenshot, template, cv2.TM_CCORR_NORMED)
+    res = cv2.matchTemplate(screenshot, template, cv2.TM_SQDIFF)
+    #res = cv2.matchTemplate(screenshot, template, cv2.TM_CCORR_NORMED)
 
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
     viewLocator = min_loc
