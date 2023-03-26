@@ -22,12 +22,9 @@ while True:
     # while time.time() - start_time < 5:
 
     print("circling")
-    start_time = time.time()
     for i in range(7):
-        x_offset = int(50 * math.cos((time.time() - start_time) * math.pi))
-        y_offset = int(50 * math.sin((time.time() - start_time) * math.pi))
-        pyautogui.moveRel(x_offset, y_offset)
-        time.sleep(0.05)
+        pyautogui.moveRel(random.randint(-50, 50), random.randint(-50, 50))
+        time.sleep(0.1)
 
     print("pause")
     # Wait for a random amount of time before moving again
@@ -37,5 +34,5 @@ while True:
     print("move rel last")
     pyautogui.moveRel(random.randint(-50, 50), random.randint(-50, 50))
 
-    #time.sleep(random.uniform(1000, 2500))
-    time.sleep(random.uniform(1, 2))
+    time.sleep(random.uniform(1000, 2500))
+    #time.sleep(random.uniform(1, 2))
